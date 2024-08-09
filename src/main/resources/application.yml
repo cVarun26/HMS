@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: HealthcareManagement
+  data:
+    mongodb:
+      uri: mongodb+srv://cvarun561:Varun2003@cluster0.bbelaso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: Data
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Iv23limFqgvRvMYooo49
+            clientSecret: 1e1b621e5071c5049b208b90ffb67a0b54ab5597
+
+server:
+  port: 8085
