@@ -1,6 +1,6 @@
-package com.example.HealthcareManagement.Repositories;
+package com.example.HealthcareManagement.repository;
 
-import com.example.HealthcareManagement.Models.Doctor;
+import com.example.HealthcareManagement.model.Doctor;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

@@ -1,18 +1,17 @@
-package com.example.HealthcareManagement.Controllers;
+package com.example.HealthcareManagement.controller;
 
-import com.example.HealthcareManagement.Models.Patient;
-import com.example.HealthcareManagement.Repositories.PatientRepo;
-import com.example.HealthcareManagement.Repositories.PatientSearchRepo;
-import com.example.HealthcareManagement.Services.PatientService;
+import com.example.HealthcareManagement.model.Patient;
+import com.example.HealthcareManagement.repository.PatientRepo;
+import com.example.HealthcareManagement.repository.PatientSearchRepo;
+import com.example.HealthcareManagement.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@EnableWebSecurity
 @RequestMapping("/Patient")
 public class PatientController {
 

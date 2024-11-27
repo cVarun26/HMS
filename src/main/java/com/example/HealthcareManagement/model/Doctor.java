@@ -1,7 +1,6 @@
-package com.example.HealthcareManagement.Models;
+package com.example.HealthcareManagement.model;
 
 import lombok.*;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

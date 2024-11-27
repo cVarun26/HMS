@@ -1,9 +1,8 @@
-package com.example.HealthcareManagement.Controllers;
+package com.example.HealthcareManagement.controller;
 
-import com.example.HealthcareManagement.Models.Doctor;
-import com.example.HealthcareManagement.Models.Patient;
-import com.example.HealthcareManagement.Repositories.DoctorRepo;
-import com.example.HealthcareManagement.Repositories.DoctorSearchRepo;
+import com.example.HealthcareManagement.model.Doctor;
+import com.example.HealthcareManagement.repository.DoctorRepo;
+import com.example.HealthcareManagement.repository.DoctorSearchRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

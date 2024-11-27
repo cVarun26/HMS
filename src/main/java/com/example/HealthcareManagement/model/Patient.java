@@ -1,4 +1,4 @@
-package com.example.HealthcareManagement.Models;
+package com.example.HealthcareManagement.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

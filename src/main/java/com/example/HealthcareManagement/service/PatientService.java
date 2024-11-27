@@ -1,7 +1,7 @@
-package com.example.HealthcareManagement.Services;
+package com.example.HealthcareManagement.service;
 
-import com.example.HealthcareManagement.Models.Patient;
-import com.example.HealthcareManagement.Repositories.PatientRepo;
+import com.example.HealthcareManagement.model.Patient;
+import com.example.HealthcareManagement.repository.PatientRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

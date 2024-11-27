@@ -1,6 +1,6 @@
-package com.example.HealthcareManagement.Repositories;
+package com.example.HealthcareManagement.repository;
 
-import com.example.HealthcareManagement.Models.Patient;
+import com.example.HealthcareManagement.model.Patient;
 import com.mongodb.client.AggregateIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoCollection;
